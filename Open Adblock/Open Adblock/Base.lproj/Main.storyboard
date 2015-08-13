@@ -16,19 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go to Settings &gt; Safari &gt; Content Blockers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SN0-Fc-RO3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Go to Settings &gt; Safari &gt; Content Blockers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SN0-Fc-RO3">
                                 <rect key="frame" x="139" y="289" width="324" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9T-4Q-b1G">
+                                <rect key="frame" x="251" y="318" width="98" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Open Settings"/>
+                                <connections>
+                                    <action selector="openSettings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rhd-15-AoW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="l9T-4Q-b1G" firstAttribute="top" secondItem="SN0-Fc-RO3" secondAttribute="bottom" constant="8" id="Skk-oJ-rAL"/>
                             <constraint firstItem="SN0-Fc-RO3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="gaZ-HH-JRe"/>
-                            <constraint firstItem="SN0-Fc-RO3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="z2L-pO-LAU"/>
+                            <constraint firstItem="l9T-4Q-b1G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nNY-Fx-CeZ"/>
                         </constraints>
                     </view>
                 </viewController>
