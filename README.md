@@ -27,6 +27,7 @@ Here is the repo for [Open Adblock](http://openadblock.org) for iOS. This is a s
 ### Contributors:
  - Justin Leger ([@jusleg](http://github.com/jusleg))
  - Saagar Jha ([@saagarjha](http://github.com/saagarjha))  
+ - Jeremy Gillespie ([@jeremyskateboard](http://github.com/jeremyskateboard)
 
 -----------
 
