@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49071A281B7E975400B2AB22 /* BlockedWebsitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49071A271B7E975400B2AB22 /* BlockedWebsitesViewController.swift */; };
+		49071A291B7E9A9500B2AB22 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = D0C82F0E1B7D05FE001725B3 /* blockerList.json */; };
+		49071A2A1B7E9A9600B2AB22 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = D0C82F0E1B7D05FE001725B3 /* blockerList.json */; };
+		49071A2B1B7E9A9600B2AB22 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = D0C82F0E1B7D05FE001725B3 /* blockerList.json */; };
+		49071A2E1B7E9AA000B2AB22 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82F101B7D05FE001725B3 /* ActionRequestHandler.swift */; };
+		49071A2F1B7E9AA100B2AB22 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82F101B7D05FE001725B3 /* ActionRequestHandler.swift */; };
+		49071A301B7E9AA100B2AB22 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82F101B7D05FE001725B3 /* ActionRequestHandler.swift */; };
 		D0C82EDB1B7D04ED001725B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */; };
 		D0C82EDD1B7D04ED001725B3 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */; };
 		D0C82EE01B7D04ED001725B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C82EDE1B7D04ED001725B3 /* Main.storyboard */; };
@@ -58,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		49071A271B7E975400B2AB22 /* BlockedWebsitesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedWebsitesViewController.swift; sourceTree = "<group>"; };
 		D0C82ED71B7D04ED001725B3 /* Open Adblock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Adblock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +144,7 @@
 			children = (
 				D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */,
 				D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */,
+				49071A271B7E975400B2AB22 /* BlockedWebsitesViewController.swift */,
 				D0C82EDE1B7D04ED001725B3 /* Main.storyboard */,
 				D0C82EE11B7D04ED001725B3 /* Assets.xcassets */,
 				D0C82EE31B7D04ED001725B3 /* LaunchScreen.storyboard */,
@@ -302,6 +311,7 @@
 			files = (
 				D0C82EE51B7D04ED001725B3 /* LaunchScreen.storyboard in Resources */,
 				D0C82EE21B7D04ED001725B3 /* Assets.xcassets in Resources */,
+				49071A291B7E9A9500B2AB22 /* blockerList.json in Resources */,
 				D0C82EE01B7D04ED001725B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49071A2A1B7E9A9600B2AB22 /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49071A2B1B7E9A9600B2AB22 /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +349,8 @@
 			files = (
 				D0C82EDD1B7D04ED001725B3 /* SettingsTableViewController.swift in Sources */,
 				D0C82EDB1B7D04ED001725B3 /* AppDelegate.swift in Sources */,
+				49071A2E1B7E9AA000B2AB22 /* ActionRequestHandler.swift in Sources */,
+				49071A281B7E975400B2AB22 /* BlockedWebsitesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49071A2F1B7E9AA100B2AB22 /* ActionRequestHandler.swift in Sources */,
 				D0C82EF01B7D04EE001725B3 /* Open_AdblockTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49071A301B7E9AA100B2AB22 /* ActionRequestHandler.swift in Sources */,
 				D0C82EFB1B7D04EE001725B3 /* Open_AdblockUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
