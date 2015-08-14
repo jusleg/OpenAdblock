@@ -1,7 +1,7 @@
 # Open Adblock 
 <p align="center">
-<a href="http://opensource.org/licenses/MIT">
-<img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="npm version">
+<a href="http://opensource.org/licenses/apache">
+<img src="https://img.shields.io/hexpm/l/plug.svg" alt="npm version">
 </a>
 <a href="#">
 <img src="https://img.shields.io/badge/iOS-9-yellow.svg" alt="build status">
