@@ -1,5 +1,7 @@
 # Open Adblock 
 
+[![Join the chat at https://gitter.im/jusleg/OpenAdblock](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jusleg/OpenAdblock?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <div align="center"><img src ="http://i.imgur.com/xDeBzhu.png" /></div>
 
 <p align="center">
