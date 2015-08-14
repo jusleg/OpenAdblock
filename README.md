@@ -1,6 +1,9 @@
 # Open Adblock 
+
 <p align="center">
-<a href="http://opensource.org/licenses/apache">
+<img src="http://i.imgur.com/xDeBzhu.png" alt="app icon/>
+<br>
+<a href="http://opensource.org/licenses/Apache-2.0">
 <img src="https://img.shields.io/hexpm/l/plug.svg" alt="npm version">
 </a>
 <a href="#">
@@ -14,15 +17,16 @@ Here is the repo for [Open Adblock](http://openadblock.org) for iOS. This is a s
 
 --------------
 ### To-Do:
- - Make an app icon
  - Setup iTunes Connect
- - Make a form for users to apply to try the beta
+ - Add content filter options
+ 
 
 ---------
 
 ### Contributors:
  - Justin Leger ([@jusleg](http://github.com/jusleg))
  - Saagar Jha ([@saagarjha](http://github.com/saagarjha))  
+ - Mr Sp0ck ([@MrSp0ck](http://github.com/MrSp0ck))
  - Jeremy Gillespie ([@jeremyskateboard](http://github.com/jeremyskateboard))
 
 -----------
@@ -40,7 +44,5 @@ Since we do not have iTunes connect setup yet, here is how to install the app at
 8. This will cause a bunch of stuff like Identity, Version, etc. to appear in the center. Select the Team: Unknown Name [Some garbage here] and change it to your account.
 9. Plug in your iPhone, and click the iPhone 6 next to the stop button on the top and select your iOS device (not the model, the name of your device).
 10. Click the play button, unlock your iPhone, and enjoy :)
-
-
 
 
