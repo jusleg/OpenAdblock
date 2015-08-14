@@ -14,7 +14,8 @@
 </a>
 </p>
 Here is the repo for [Open Adblock](http://openadblock.org) for iOS. This is a simple app that uses content blocking in safari. We want to build the best adblock. In order to do so, it must be free and open source. Any help would be appreciated.
-
+If you wish to join the chat room, you can do it here 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jusleg/OpenAdblock?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 --------------
 ### To-Do:
  - Setup iTunes Connect
