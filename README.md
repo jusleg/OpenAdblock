@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/Build-Passing-green.svg" alt="dependency status">
 </a>
 <a href="#">
-<img src="https://img.shields.io/badge/Itunes%20Connect-Not%20Yet-red.svg" alt="dependency status">
+<img src="https://img.shields.io/badge/iTunes%20Connect-Not%20Yet-red.svg" alt="dependency status">
 </a>
 </p>
 Here is the repo for [Open Adblock](http://openadblock.org) for iOS. This is a simple app that uses content blocking in safari. We want to build the best adblock. In order to do so, it must be free and open source. Any help would be appreciated.
@@ -19,7 +19,7 @@ Here is the repo for [Open Adblock](http://openadblock.org) for iOS. This is a s
 --------------
 ### To-Do:
  - Make an app icon
- - Setup itunes Connect
+ - Setup iTunes Connect
  - Make a form for users to apply to try the beta
 
 ---------
@@ -31,10 +31,10 @@ Here is the repo for [Open Adblock](http://openadblock.org) for iOS. This is a s
 
 -----------
 
-###How to install the app
-Since we do not have Itunes connect setup yet. Here is how to install the app at the moment. Keep in mind you will have to make a 3.6gb download.
+### How to install the app
+Since we do not have iTunes connect setup yet, here is how to install the app at the moment. Keep in mind you will have to make a 3.6 GB download.
 
-1. Sign up for the [Apple Developer Program](developper.apple.com).
+1. Sign up for the [Apple Developer Program](https://developer.apple.com).
 2. Download Xcode 7 from [here](https://developer.apple.com/xcode/downloads/).
 3. Install it (and the Developer Tools).
 4. Download the zip of this repo

@@ -258,7 +258,7 @@
 				TargetAttributes = {
 					D0C82ED61B7D04ED001725B3 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 7J2BNTPR6L;
+						DevelopmentTeam = X4A9GH5NN2;
 					};
 					D0C82EEA1B7D04EE001725B3 = {
 						CreatedOnToolsVersion = 7.0;
@@ -270,7 +270,7 @@
 					};
 					D0C82F0B1B7D05FE001725B3 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 7J2BNTPR6L;
+						DevelopmentTeam = X4A9GH5NN2;
 					};
 				};
 			};
@@ -572,6 +572,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "OpenAdblock.Open-Adblock.Adblock-Content-Blocker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -585,6 +586,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "OpenAdblock.Open-Adblock.Adblock-Content-Blocker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -608,6 +610,7 @@
 				D0C82F011B7D04EE001725B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0C82F021B7D04EE001725B3 /* Build configuration list for PBXNativeTarget "Open AdblockTests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +619,7 @@
 				D0C82F041B7D04EE001725B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0C82F051B7D04EE001725B3 /* Build configuration list for PBXNativeTarget "Open AdblockUITests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +628,7 @@
 				D0C82F071B7D04EE001725B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0C82F161B7D05FE001725B3 /* Build configuration list for PBXNativeTarget "Adblock Content Blocker" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +637,7 @@
 				D0C82F181B7D05FE001725B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
