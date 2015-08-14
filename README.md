@@ -1,8 +1,6 @@
 # Open Adblock 
-
+<p><img src="http://i.imgur.com/xDeBzhu.png" alt="app icon/></p>
 <p align="center">
-<img src="http://i.imgur.com/xDeBzhu.png" alt="app icon/>
-<br>
 <a href="http://opensource.org/licenses/Apache-2.0">
 <img src="https://img.shields.io/hexpm/l/plug.svg" alt="npm version">
 </a>
