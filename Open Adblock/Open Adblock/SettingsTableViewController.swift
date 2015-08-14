@@ -1,5 +1,5 @@
 //
-//  TableViewController.swift
+//  SettingsTableViewController.swift
 //  Open Adblock
 //
 //  Created by Justin on 2015-08-13.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class SettingsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,12 @@ class TableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func blockAds(sender: AnyObject) {
+    }
+    
+    @IBAction func blockAnalytics(sender: AnyObject) {
+    }
+   
     @IBAction func openSettings(sender: AnyObject) {
         if let settingsURL = NSURL(string: UIApplicationOpenSettingsURLString) {
             UIApplication.sharedApplication().openURL(settingsURL)
