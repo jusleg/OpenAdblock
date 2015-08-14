@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D0C82EDB1B7D04ED001725B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */; };
-		D0C82EDD1B7D04ED001725B3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82EDC1B7D04ED001725B3 /* TableViewController.swift */; };
+		D0C82EDD1B7D04ED001725B3 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */; };
 		D0C82EE01B7D04ED001725B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C82EDE1B7D04ED001725B3 /* Main.storyboard */; };
 		D0C82EE21B7D04ED001725B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C82EE11B7D04ED001725B3 /* Assets.xcassets */; };
 		D0C82EE51B7D04ED001725B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C82EE31B7D04ED001725B3 /* LaunchScreen.storyboard */; };
@@ -60,7 +60,7 @@
 /* Begin PBXFileReference section */
 		D0C82ED71B7D04ED001725B3 /* Open Adblock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Adblock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0C82EDC1B7D04ED001725B3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		D0C82EDF1B7D04ED001725B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0C82EE11B7D04ED001725B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0C82EE41B7D04ED001725B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */,
-				D0C82EDC1B7D04ED001725B3 /* TableViewController.swift */,
+				D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */,
 				D0C82EDE1B7D04ED001725B3 /* Main.storyboard */,
 				D0C82EE11B7D04ED001725B3 /* Assets.xcassets */,
 				D0C82EE31B7D04ED001725B3 /* LaunchScreen.storyboard */,
@@ -335,7 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C82EDD1B7D04ED001725B3 /* TableViewController.swift in Sources */,
+				D0C82EDD1B7D04ED001725B3 /* SettingsTableViewController.swift in Sources */,
 				D0C82EDB1B7D04ED001725B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,7 +494,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Open Adblock/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "OpenAdblock.Open-Adblock";
+				PRODUCT_BUNDLE_IDENTIFIER = org.openadblock.openadblock.saagarjha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -509,7 +509,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Open Adblock/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "OpenAdblock.Open-Adblock";
+				PRODUCT_BUNDLE_IDENTIFIER = org.openadblock.openadblock.saagarjha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -570,7 +570,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Adblock Content Blocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "OpenAdblock.Open-Adblock.Adblock-Content-Blocker";
+				PRODUCT_BUNDLE_IDENTIFIER = org.openadblock.adblockcontentblocker.saagarjha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -584,7 +584,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Adblock Content Blocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "OpenAdblock.Open-Adblock.Adblock-Content-Blocker";
+				PRODUCT_BUNDLE_IDENTIFIER = org.openadblock.adblockcontentblocker.saagarjha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
