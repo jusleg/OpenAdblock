@@ -6,10 +6,6 @@
 <a href="#">
 <img src="https://img.shields.io/badge/iOS-9-yellow.svg" alt="build status">
 </a>
-
-<a href="#">
-<img src="https://img.shields.io/badge/Build-Passing-green.svg" alt="dependency status">
-</a>
 <a href="#">
 <img src="https://img.shields.io/badge/iTunes%20Connect-Not%20Yet-red.svg" alt="dependency status">
 </a>
