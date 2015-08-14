@@ -1,6 +1,6 @@
 # Open Adblock 
 
-<div style="text-align:center"><img src ="http://i.imgur.com/xDeBzhu.png" /></div>
+<div align="center"><img src ="http://i.imgur.com/xDeBzhu.png" /></div>
 
 <p align="center">
 <a href="http://opensource.org/licenses/Apache-2.0">
