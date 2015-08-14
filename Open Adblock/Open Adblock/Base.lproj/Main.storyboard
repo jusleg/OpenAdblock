@@ -138,9 +138,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Open Adblock" id="OyM-vY-oDm"/>
-                    <connections>
-                        <outlet property="blockTracking" destination="EbS-sv-g7k" id="Tb0-bv-zXS"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8f-XE-56d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
