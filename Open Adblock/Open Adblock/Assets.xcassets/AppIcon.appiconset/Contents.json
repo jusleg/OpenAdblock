@@ -2,39 +2,69 @@
   "images" : [
     {
       "idiom" : "iphone",
+<<<<<<< HEAD
       "size" : "29x29",
       "scale" : "2x",
       "filename" : "Icon-Small@2x.png"
+=======
+      "filename" : "Icon-Small@2x.png",
+      "scale" : "2x"
+>>>>>>> jusleg/master
     },
     {
       "idiom" : "iphone",
+<<<<<<< HEAD
       "size" : "29x29",
       "scale" : "3x",
       "filename" : "Icon-Small@3x.png"
+=======
+      "filename" : "Icon-Small@3x.png",
+      "scale" : "3x"
+>>>>>>> jusleg/master
     },
     {
       "idiom" : "iphone",
+<<<<<<< HEAD
       "size" : "40x40",
       "scale" : "2x",
       "filename" : "Icon-40@2x.png"
+=======
+      "filename" : "Icon-40@2x.png",
+      "scale" : "2x"
+>>>>>>> jusleg/master
     },
     {
       "idiom" : "iphone",
+<<<<<<< HEAD
       "size" : "40x40",
       "scale" : "3x",
       "filename" : "Icon-40@3x.png"
+=======
+      "filename" : "Icon-40@3x.png",
+      "scale" : "3x"
+>>>>>>> jusleg/master
     },
     {
       "idiom" : "iphone",
+<<<<<<< HEAD
       "size" : "60x60",
       "scale" : "2x",
       "filename" : "Icon-60@2x.png"
+=======
+      "filename" : "Icon-60@2x.png",
+      "scale" : "2x"
+>>>>>>> jusleg/master
     },
     {
       "idiom" : "iphone",
+<<<<<<< HEAD
       "size" : "60x60",
       "scale" : "3x",
       "filename" : "Icon-60@3x.png"
+=======
+      "filename" : "Icon-60@3x.png",
+      "scale" : "3x"
+>>>>>>> jusleg/master
     },
     {
       "idiom" : "ipad",
