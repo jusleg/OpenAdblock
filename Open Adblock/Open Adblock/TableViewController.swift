@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TableViewController.swift
 //  Open Adblock
 //
 //  Created by Justin on 2015-08-13.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
