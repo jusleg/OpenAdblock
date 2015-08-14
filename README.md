@@ -1,6 +1,8 @@
 # Open Adblock 
 
 <p align="center">
+<img src="http://i.imgur.com/xDeBzhu.png" alt="app icon/>
+<p>
 <a href="http://opensource.org/licenses/Apache-2.0">
 <img src="https://img.shields.io/hexpm/l/plug.svg" alt="npm version">
 </a>
@@ -10,6 +12,8 @@
 <a href="#">
 <img src="https://img.shields.io/badge/iTunes%20Connect-Not%20Yet-red.svg" alt="dependency status">
 </a>
+</p>
+
 </p>
 Here is the repo for [Open Adblock](http://openadblock.org) for iOS. This is a simple app that uses content blocking in safari. We want to build the best adblock. In order to do so, it must be free and open source. Any help would be appreciated.
 
