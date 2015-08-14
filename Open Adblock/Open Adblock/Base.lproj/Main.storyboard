@@ -76,13 +76,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Block Analytics" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fy7-GL-eFY">
-                                                    <rect key="frame" x="8" y="11" width="117" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EbS-sv-g7k">
                                                     <rect key="frame" x="543" y="6" width="51" height="31"/>
                                                     <animations/>
@@ -90,6 +83,13 @@
                                                         <action selector="blockAnalytics:" destination="Iqr-Vc-aT7" eventType="valueChanged" id="zgU-7t-lyL"/>
                                                     </connections>
                                                 </switch>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Block Analytics" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fy7-GL-eFY">
+                                                    <rect key="frame" x="8" y="11" width="117" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                             <constraints>
@@ -101,12 +101,35 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="DwB-wp-a0M" style="IBUITableViewCellStyleDefault" id="zv3-5r-Afs">
+                                        <rect key="frame" x="0.0" y="187" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zv3-5r-Afs" id="gOc-Pc-Pdw">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Blocked Websites" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DwB-wp-a0M">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="bGc-hZ-9Zi" kind="show" id="W9T-g6-YTJ"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="To use Open Adblock, turn it on in Settings &gt; Safari &gt; Content Blockers" id="Gbd-Ve-6SC">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="LgB-Fz-VmQ">
-                                        <rect key="frame" x="0.0" y="238" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="282" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LgB-Fz-VmQ" id="Nqc-q0-svE">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
@@ -142,6 +165,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8f-XE-56d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1043" y="197"/>
+        </scene>
+        <!--Blocked Websites-->
+        <scene sceneID="5rb-Ba-rtf">
+            <objects>
+                <viewController title="Blocked Websites" id="bGc-hZ-9Zi" customClass="BlockedWebsitesViewController" customModule="Open_Adblock" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R5H-vb-cBy"/>
+                        <viewControllerLayoutGuide type="bottom" id="vZf-pe-lzs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hru-la-Sw6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XtH-xm-2Pj">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="blockedWebsite" id="dks-Me-2lW">
+                                        <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dks-Me-2lW" id="FgP-2z-tds">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="bGc-hZ-9Zi" id="6ik-pf-aan"/>
+                                    <outlet property="delegate" destination="bGc-hZ-9Zi" id="168-Uj-ec9"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="blockedWebsites" destination="XtH-xm-2Pj" id="byt-XR-1Q2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D0D-cC-7xx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1760" y="197"/>
         </scene>
     </scenes>
 </document>
