@@ -20,7 +20,8 @@ If you wish to join the chat room, you can do it here [![Gitter](https://badges.
 ### To-Do:
  - Setup iTunes Connect
  - Add content filter options
- 
+ - Settings for content filtering
+ - Analytics blocking
 
 ---------
 
@@ -29,21 +30,23 @@ If you wish to join the chat room, you can do it here [![Gitter](https://badges.
  - Saagar Jha ([@saagarjha](http://github.com/saagarjha))  
  - Mr Sp0ck ([@MrSp0ck](http://github.com/MrSp0ck))
  - Jeremy Gillespie ([@jeremyskateboard](http://github.com/jeremyskateboard))
+ - Nicolas Da Mutten ([@cleverer](http://github.com/cleverer))
 
 -----------
 
 ### How to install the app
 Since we do not have iTunes connect setup yet, here is how to install the app at the moment. Keep in mind you will have to make a 3.6 GB download.
 
-1. Sign up for the [Apple Developer Program](https://developer.apple.com).
-2. Download Xcode 7 from [here](https://developer.apple.com/xcode/downloads/).
-3. Install it (and the Developer Tools).
-4. Download the zip of this repo
-5. Open the zip file and open the OpenAdblock folder, then open OpenAdblock.xcodeproj. This will open it in Xcode.
-6. Go to Xcode > Preferences. Open the Accounts tab and add your Apple ID (the one you used to sign to be a developer). Close Preferences.
-7. On the right side there will be a sidebar with one file called OpenAdblock. Select it.
-8. This will cause a bunch of stuff like Identity, Version, etc. to appear in the center. Select the Team: Unknown Name [Some garbage here] and change it to your account.
-9. Plug in your iPhone, and click the iPhone 6 next to the stop button on the top and select your iOS device (not the model, the name of your device).
-10. Click the play button, unlock your iPhone, and enjoy :)
+1. Download Xcode 7 from [here](https://developer.apple.com/xcode/downloads/).
+2. Install it (and the Developer Tools).
+3. Download the zip of this repo
+4. Open the zip file and open the OpenAdblock folder, then open OpenAdblock.xcodeproj. This will open it in Xcode.
+5. Go to Xcode > Preferences. Open the Accounts tab and add your Apple ID (the one you used to sign to be a developer). Close Preferences.
+6. On the right side there will be a sidebar with one file called OpenAdblock. Select it.
+7. This will cause a bunch of stuff like Identity, Version, etc. to appear in the center. Select the Team: Unknown Name [Some garbage here] and change it to your account.
+8. Above it, you will find the Build Identifier text field. Change this text to something unique (ex. put your name with no spaces in front and a dot, e.g. if your name is Bob Joe, change it to bobjoe.[whatever was there originally])
+9. On the side, select the Extension build target (It has an "E" next to it) and repeat step 8.
+10. Plug in your iPhone, and click the iPhone 6 next to the stop button on the top and select your iOS device (not the model, the name of your device).
+11. Click the play button, unlock your iPhone, and enjoy :)
 
 
