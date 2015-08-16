@@ -66,6 +66,7 @@
 
 /* Begin PBXFileReference section */
 		49071A271B7E975400B2AB22 /* BlockedWebsitesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedWebsitesViewController.swift; sourceTree = "<group>"; };
+		49B2FADC1B7EEC0900CAF9D3 /* Open Adblock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Open Adblock.entitlements"; sourceTree = "<group>"; };
 		D0C82ED71B7D04ED001725B3 /* Open Adblock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Adblock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		D0C82ED91B7D04ED001725B3 /* Open Adblock */ = {
 			isa = PBXGroup;
 			children = (
+				49B2FADC1B7EEC0900CAF9D3 /* Open Adblock.entitlements */,
 				D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */,
 				D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */,
 				49071A271B7E975400B2AB22 /* BlockedWebsitesViewController.swift */,
@@ -268,6 +270,11 @@
 					D0C82ED61B7D04ED001725B3 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = X4A9GH5NN2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					D0C82EEA1B7D04EE001725B3 = {
 						CreatedOnToolsVersion = 7.0;
@@ -505,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Open Adblock/Open Adblock.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -520,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Open Adblock/Open Adblock.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;

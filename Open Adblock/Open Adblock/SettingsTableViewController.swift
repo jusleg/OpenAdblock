@@ -6,9 +6,16 @@
 //  Copyright © 2015 OpenAdblock. All rights reserved.
 //
 
+import SafariServices
 import UIKit
 
 class SettingsTableViewController: UITableViewController {
+    @IBOutlet weak var blockAds: UISwitch! {
+        didSet {
+            blockAds.setOn(NSUserDefaults(suiteName: "group.openadblock.openadblock")?.boolForKey("blockAds") ?? false, animated: false)
+        }
+    }
+    @IBOutlet weak var blockAnalytics: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +28,8 @@ class SettingsTableViewController: UITableViewController {
     }
     
     @IBAction func blockAds(sender: AnyObject) {
+        NSUserDefaults(suiteName: "group.openadblock.openadblock")!.setBool((sender as! UISwitch).on, forKey: "blockAds")
+        SFContentBlockerManager.reloadContentBlockerWithIdentifier("\(NSBundle.mainBundle().bundleIdentifier!).openadblockextension", completionHandler: nil)
     }
     
     @IBAction func blockAnalytics(sender: AnyObject) {
