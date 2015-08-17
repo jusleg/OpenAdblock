@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/iOS-9-yellow.svg" alt="build status">
 </a>
 <a href="#">
-<img src="https://img.shields.io/badge/Itunes%20Connect-Awaiting%20iOS%209%20launch-green.svg" alt="dependency status">
+<img src="https://img.shields.io/badge/iTunes%20Connect-Awaiting%20iOS%209%20launch-green.svg" alt="dependency status">
 </a>
 </p>
 This is the repo for [Open Adblock](http://openadblock.org) for iOS. It is a simple app that uses the new feature in iOS 9 called content blocking in Safari. We want to build the best adblock. In order to do so, it must be free and open source. Any help would be appreciated.
