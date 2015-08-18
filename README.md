@@ -35,7 +35,7 @@ If you wish to join the chat room, you can so here [![Gitter](https://badges.git
 -----------
 
 ### How to install the app
-Since we do not have iTunes connect setup yet, here is how to install the app at the moment. Keep in mind you will have to make a 3.6 GB download and about 8GB of free space on your HD.
+Since we do not have iTunes connect setup yet, here is how to install the app at the moment. Keep in mind you will have to make a 3.6 GB download and have about 8GB of free space on your HD.
 
 1. Download Xcode 7 from [here](https://developer.apple.com/xcode/downloads/).
 2. Install it (and the Developer Tools).
