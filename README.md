@@ -22,6 +22,7 @@ If you wish to join the chat room, you can so here [![Gitter](https://badges.git
  - Add content filter options
  - Settings for content filtering
  - Analytics blocking
+ - Graphic for users to see how many ads they have blocked, to be on the main screen [To be done by Saagar]s
 
 ---------
 
