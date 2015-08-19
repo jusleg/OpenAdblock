@@ -14,6 +14,7 @@
 		49071A2E1B7E9AA000B2AB22 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82F101B7D05FE001725B3 /* ActionRequestHandler.swift */; };
 		49071A2F1B7E9AA100B2AB22 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82F101B7D05FE001725B3 /* ActionRequestHandler.swift */; };
 		49071A301B7E9AA100B2AB22 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82F101B7D05FE001725B3 /* ActionRequestHandler.swift */; };
+		4949F6FB1B83FEFE00924E94 /* WhitelistedWebsitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949F6FA1B83FEFE00924E94 /* WhitelistedWebsitesViewController.swift */; };
 		D0C82EDB1B7D04ED001725B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */; };
 		D0C82EDD1B7D04ED001725B3 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */; };
 		D0C82EE01B7D04ED001725B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C82EDE1B7D04ED001725B3 /* Main.storyboard */; };
@@ -66,6 +67,7 @@
 
 /* Begin PBXFileReference section */
 		49071A271B7E975400B2AB22 /* BlockedWebsitesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedWebsitesViewController.swift; sourceTree = "<group>"; };
+		4949F6FA1B83FEFE00924E94 /* WhitelistedWebsitesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhitelistedWebsitesViewController.swift; sourceTree = "<group>"; };
 		49B2FADC1B7EEC0900CAF9D3 /* Open Adblock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Open Adblock.entitlements"; sourceTree = "<group>"; };
 		D0C82ED71B7D04ED001725B3 /* Open Adblock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Adblock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -145,8 +147,9 @@
 			children = (
 				49B2FADC1B7EEC0900CAF9D3 /* Open Adblock.entitlements */,
 				D0C82EDA1B7D04ED001725B3 /* AppDelegate.swift */,
-				D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */,
 				49071A271B7E975400B2AB22 /* BlockedWebsitesViewController.swift */,
+				D0C82EDC1B7D04ED001725B3 /* SettingsTableViewController.swift */,
+				4949F6FA1B83FEFE00924E94 /* WhitelistedWebsitesViewController.swift */,
 				D0C82EDE1B7D04ED001725B3 /* Main.storyboard */,
 				D0C82EE11B7D04ED001725B3 /* Assets.xcassets */,
 				D0C82EE31B7D04ED001725B3 /* LaunchScreen.storyboard */,
@@ -356,6 +359,7 @@
 			files = (
 				D0C82EDD1B7D04ED001725B3 /* SettingsTableViewController.swift in Sources */,
 				D0C82EDB1B7D04ED001725B3 /* AppDelegate.swift in Sources */,
+				4949F6FB1B83FEFE00924E94 /* WhitelistedWebsitesViewController.swift in Sources */,
 				49071A2E1B7E9AA000B2AB22 /* ActionRequestHandler.swift in Sources */,
 				49071A281B7E975400B2AB22 /* BlockedWebsitesViewController.swift in Sources */,
 			);

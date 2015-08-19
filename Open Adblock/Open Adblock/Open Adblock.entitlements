@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.org.openadblock.openadblock</string>
+		<string>group.saagarjha.org.openadblock.openadblock</string>
 	</array>
 </dict>
 </plist>

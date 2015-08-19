@@ -40,6 +40,5 @@ class SettingsTableViewController: UITableViewController {
             UIApplication.sharedApplication().openURL(settingsURL)
         }
     }
-    
 }
 
