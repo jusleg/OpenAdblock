@@ -13,8 +13,8 @@
 <img src="https://img.shields.io/badge/iTunes%20Connect-Awaiting%20iOS%209%20launch-green.svg" alt="dependency status">
 </a>
 </p>
-This is the repo for [Open Adblock](http://openadblock.org) for iOS. Open Adblock is a Safari Content Blocking Extension created for devices running iOS 9. Our goal is create the best adblock by making it free and open source. Any help would be appreciated.
-If you wish to join the chat room, you can do so here [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jusleg/OpenAdblock?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+This is the repo for [Open Adblock](http://openadblock.org) for iOS. Open Adblock is a Safari Content Blocking Extension created for devices running iOS 9. Our goal is to create the best adblock, which we can only achieve by making it free and open-source. Any help would be appreciated!
+If you wish to join the chat room, you can do so here: [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jusleg/OpenAdblock?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 --------------
 ### To-Do:
@@ -44,10 +44,10 @@ Since we do not have iTunes connect setup yet, here is how to install the app at
 4. Open the .zip file and open the OpenAdblock folder, then open OpenAdblock.xcodeproj. This will open it in Xcode.
 5. Go to Xcode > Preferences. Open the Accounts tab and add your Apple ID (the one you used to sign to be a developer). Close Preferences.
 6. On the left side there will be a sidebar with one file called OpenAdblock. Select it and click on the arrow to the left of it.
-7. This will cause a bunch of stuff like Identity, Version, etc. to appear in the centre. Select the Team: Unknown Name [Some garbage here] and change it to your account from the drop down menu. Afterwards click on the “Fix Issue” button.
+7. This will cause a bunch of stuff like Identity, Version, etc. to appear in the centre. Select the Team: Unknown Name [Some random numbers and letters here] and change it to your account from the drop down menu. Afterwards click on the “Fix Issue” button.
 8. Above it, you will find the Bundle Identifier text field. Change this text to contain your name/nickname instead of “saagarjha” (e.g. if your name is Bob Joe, change it to bobjoe.[whatever was there originally]; therefore making it look like this –> bobjoe.org.openadblock.openadblock)
 9. In the centre screen on the top left (right above the identity field), there will be a dropdown menu with the app icon and name. Click it and select the Extension build target (It has an "E" next to it) and repeat step 8 (!! Remember to only change the beginning of the text !!) (example –> bobjoe.org.openadblock.openadblock.openadblockextension)
 10. Plug in your iPhone, and click the iPhone 6 next to the stop button on the top and select your iOS device (not the model, the name of your device).
 11. Click the play button, hit “fix issue” when it pops up, unlock your iPhone.
 12. On your iPhone go to Setting > General > Profiles. Scroll down and click on a field with you Apple ID email address and hit "Trust"
-13. Now the app is installed on your iPhone, run it and enjoy :)
+13. Now the app is installed on your iPhone, run it and enjoy : )
