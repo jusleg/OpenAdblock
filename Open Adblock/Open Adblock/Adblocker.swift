@@ -12,7 +12,7 @@ class Adblocker {
     static let sharedInstance = Adblocker()
     
     init() {
-        let data = NSData(contentsOfURL: NSBundle.mainBundle().URLForResource("blockerList", withExtension: "json")!)
+        let data = NSData(contentsOfURL: NSURL(fileURLWithPath: ((NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!))
         var jsonData: AnyObject?
         do {
            jsonData = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments)
