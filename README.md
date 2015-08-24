@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/badge/iTunes%20Connect-Awaiting%20iOS%209%20launch-green.svg" alt="dependency status">
 </a>
 </p>
-This is the repo for [Open Adblock](http://openadblock.org) for iOS. It is a simple app that uses the new feature in iOS 9 called content blocking in Safari. We want to build the best adblock. In order to do so, it must be free and open source. Any help would be appreciated.
+This is the repo for [Open Adblock](http://openadblock.org) for iOS. Open Adblock is a Safari Content Blocking Extension created for devices running iOS 9. Our goal is create the best adblock by making it free and open source. Any help would be appreciated.
 If you wish to join the chat room, you can so here [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jusleg/OpenAdblock?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 --------------
@@ -31,6 +31,7 @@ If you wish to join the chat room, you can so here [![Gitter](https://badges.git
  - Martin Turek ([@MrSp0ck](http://github.com/MrSp0ck))
  - Jeremy Gillespie ([@jeremyskateboard](http://github.com/jeremyskateboard))
  - Nicolas Da Mutten ([@cleverer](http://github.com/cleverer))
+ - Jason Piper([@Xaositek](http://github.com/xaositek))
 
 -----------
 
