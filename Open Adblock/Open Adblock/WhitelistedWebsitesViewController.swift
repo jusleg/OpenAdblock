@@ -16,6 +16,7 @@ class WhitelistedWebsitesViewController: UIViewController, UITableViewDataSource
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationController?.setToolbarHidden(false, animated: false)
     }
 
     override func didReceiveMemoryWarning() {

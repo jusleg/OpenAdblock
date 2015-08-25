@@ -19,7 +19,9 @@ class SettingsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
+        navigationController?.setToolbarHidden(false, animated: false)
     }
     
     override func didReceiveMemoryWarning() {
