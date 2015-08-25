@@ -17,6 +17,12 @@ class SettingsTableViewController: UITableViewController {
     }
     @IBOutlet weak var blockAnalytics: UISwitch!
     
+    @IBOutlet weak var testAdblockWebView: UIWebView! {
+        didSet {
+            testAdblockWebView.loadRequest(NSURLRequest(URL: NSURL(string: "http://www.jusleg.com/testOAB")!))
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
