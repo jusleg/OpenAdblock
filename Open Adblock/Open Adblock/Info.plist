@@ -4,11 +4,8 @@
 <dict>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>jusleg.com/testOAB</key>
-			<string></string>
-		</dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>

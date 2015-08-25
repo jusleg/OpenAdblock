@@ -33,12 +33,6 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                        <webView key="tableFooterView" contentMode="scaleToFill" id="lvW-AQ-eoK">
-                            <rect key="frame" x="0.0" y="403" width="600" height="44"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <animations/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        </webView>
                         <sections>
                             <tableViewSection headerTitle="These switches are in development and it is likely that they will not work" id="16D-y8-To8">
                                 <cells>
@@ -193,7 +187,6 @@
                     <connections>
                         <outlet property="blockAds" destination="fcy-t4-eMN" id="ce4-L1-2ao"/>
                         <outlet property="blockAnalytics" destination="EbS-sv-g7k" id="m61-9x-tup"/>
-                        <outlet property="testAdblockWebView" destination="lvW-AQ-eoK" id="JRN-Nn-lZo"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8f-XE-56d" userLabel="First Responder" sceneMemberID="firstResponder"/>

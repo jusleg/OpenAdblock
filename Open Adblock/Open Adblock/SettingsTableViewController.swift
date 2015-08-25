@@ -17,16 +17,14 @@ class SettingsTableViewController: UITableViewController {
     }
     @IBOutlet weak var blockAnalytics: UISwitch!
     
-    @IBOutlet weak var testAdblockWebView: UIWebView! {
-        didSet {
-            testAdblockWebView.loadRequest(NSURLRequest(URL: NSURL(string: "http://www.jusleg.com/testOAB")!))
-        }
-    }
+    let testAdblockWebView = UIWebView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
+        testAdblockWebView.scalesPageToFit = true
+        testAdblockWebView.loadRequest(NSURLRequest(URL: NSURL(string: "http://www.jusleg.com/testOAB")!))
     }
     
     override func didReceiveMemoryWarning() {
@@ -47,5 +45,20 @@ class SettingsTableViewController: UITableViewController {
             UIApplication.sharedApplication().openURL(settingsURL)
         }
     }
+    
+    override func tableView(tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        if section == 1 {
+            return testAdblockWebView
+        } else {
+            return super.tableView(tableView, viewForFooterInSection: section)
+        }
+    }
+    
+    override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        if section == 1 {
+            return CGFloat(200)
+        } else {
+            return super.tableView(tableView, heightForFooterInSection: section)
+        }
+    }
 }
-
