@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="http://opensource.org/licenses/Apache-2.0">
-<img src="https://img.shields.io/hexpm/l/plug.svg" alt="npm version">
+<img src="https://img.shields.io/badge/license-Apache%202-blue.svg" alt="npm version">
 </a>
 <a href="#">
 <img src="https://img.shields.io/badge/iOS-9-yellow.svg" alt="build status">
