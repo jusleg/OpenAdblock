@@ -21,7 +21,9 @@ If you wish to join the chat room, you can do so here: [![Gitter](https://badges
  - ~~Setup iTunes Connect~~
  - Add content filter options
  - Settings for content filtering
- - Analytics blocking
+ - Analytics blocking [Partially implemented]
+ - Better Adblock on/off detection (i.e. not a webview)
+ - A graphic to display adblock statistics -Saagar Jha
 
 ---------
 
