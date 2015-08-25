@@ -1,5 +1,5 @@
 //
-//  BlockedWebsitesViewController.swift
+//  RulesViewController.swift
 //  Open Adblock
 //
 //  Created by Saagar Jha on 8/14/15.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class BlockedWebsitesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class RulesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    let cellIdentifer = "blockedWebsite"
+    let cellIdentifer = "rule"
     
-    @IBOutlet weak var blockedWebsites: UITableView! {
+    @IBOutlet weak var rulesTableView: UITableView! {
         didSet {
-            blockedWebsites.delegate = self
+            rulesTableView.delegate = self
         }
     }
     
@@ -24,16 +24,8 @@ class BlockedWebsitesViewController: UIViewController, UITableViewDataSource, UI
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-//        do {
-//            let data = try NSJSONSerialization.JSONObjectWithData(NSData(contentsOfURL: NSBundle.mainBundle().URLForResource("blockerList", withExtension: "json")!)!, options: .
-//                AllowFragments) as? Array
-//            for website in data {
-//                rules.append(website["trigger"]["url-filter"])
-//            }
-//        } catch _ {
-//            rules = [:]
-//        }
+        rules = Adblocker.sharedInstance.ruleNames
+        navigationController?.setToolbarHidden(false, animated: false)
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,12 +39,14 @@ class BlockedWebsitesViewController: UIViewController, UITableViewDataSource, UI
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //print(rules)
-        return 0
-        //return rules.count
+        //return 0
+        return rules.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCellWithIdentifier(cellIdentifer)!
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifer) as UITableViewCell!
+        cell.textLabel?.text = rules[indexPath.row]
+        return cell
     }
 
     /*

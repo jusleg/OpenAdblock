@@ -108,7 +108,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Blocked Websites" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DwB-wp-a0M">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Rules" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DwB-wp-a0M">
                                                     <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
@@ -196,7 +196,7 @@
         <!--Blocked Websites-->
         <scene sceneID="5rb-Ba-rtf">
             <objects>
-                <viewController title="Blocked Websites" id="bGc-hZ-9Zi" customClass="BlockedWebsitesViewController" customModule="Open_Adblock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Blocked Websites" id="bGc-hZ-9Zi" customClass="RulesViewController" customModule="Open_Adblock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R5H-vb-cBy"/>
                         <viewControllerLayoutGuide type="bottom" id="vZf-pe-lzs"/>
@@ -205,12 +205,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XtH-xm-2Pj">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XtH-xm-2Pj">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="blockedWebsite" id="dks-Me-2lW">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="rule" id="dks-Me-2lW" customClass="RuleTableViewCell" customModule="Open_Adblock" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dks-Me-2lW" id="FgP-2z-tds">
@@ -222,19 +222,25 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="bGc-hZ-9Zi" id="6ik-pf-aan"/>
-                                    <outlet property="delegate" destination="bGc-hZ-9Zi" id="168-Uj-ec9"/>
+                                    <outlet property="dataSource" destination="bGc-hZ-9Zi" id="twE-VY-XCP"/>
+                                    <outlet property="delegate" destination="bGc-hZ-9Zi" id="D3d-gb-9N8"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XtH-xm-2Pj" firstAttribute="leading" secondItem="Hru-la-Sw6" secondAttribute="leadingMargin" constant="-20" id="3vs-PX-u7Y"/>
+                            <constraint firstItem="XtH-xm-2Pj" firstAttribute="top" secondItem="Hru-la-Sw6" secondAttribute="topMargin" id="gFA-2r-a5C"/>
+                            <constraint firstItem="vZf-pe-lzs" firstAttribute="top" secondItem="XtH-xm-2Pj" secondAttribute="bottom" id="jbD-bE-MhU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XtH-xm-2Pj" secondAttribute="trailing" constant="-20" id="qrd-PT-qFK"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Blocked Websites" id="PcQ-Ug-3Aa">
+                    <navigationItem key="navigationItem" title="Rules" id="PcQ-Ug-3Aa">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="9CJ-it-sjP"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="blockedWebsites" destination="XtH-xm-2Pj" id="byt-XR-1Q2"/>
+                        <outlet property="rulesTableView" destination="XtH-xm-2Pj" id="Dc9-el-go5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D0D-cC-7xx" userLabel="First Responder" sceneMemberID="firstResponder"/>

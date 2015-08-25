@@ -1,5 +1,5 @@
 //
-//  BlockedWebsiteTableViewCell.swift
+//  RuleTableViewCell.swift
 //  Open Adblock
 //
 //  Created by Saagar Jha on 8/24/15.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class BlockedWebsiteTableViewCell: UITableViewCell {
+class RuleTableViewCell: UITableViewCell {
     
-    let `switch` = UISwitch()
+    var `switch`: UISwitch!
     
     var on: Bool {
         get {
@@ -24,6 +24,7 @@ class BlockedWebsiteTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        `switch` = UISwitch()
         on = true
         `switch`.on = true
         accessoryView = `switch`

@@ -11,6 +11,8 @@ import Foundation
 class Adblocker {
     static let sharedInstance = Adblocker()
     
+    var ruleNames = [String]()
+    
     init() {
         let data = NSData(contentsOfURL: NSURL(fileURLWithPath: ((NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!))
         var jsonData: AnyObject?
@@ -22,8 +24,9 @@ class Adblocker {
         //print(jsonData)
         for json in jsonData as! [AnyObject] {
             if let trigger = (json as! [String: AnyObject])["trigger"] {
-                if let website = (trigger as! [String: AnyObject])["url-filter"] {
-                    print(website)
+                if let rule = (trigger as! [String: AnyObject])["url-filter"] {
+                    ruleNames.append(rule as! String)
+                    //print(website)
                 }
             }
         }
