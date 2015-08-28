@@ -13,8 +13,7 @@ class ActionRequestHandler: NSObject, NSExtensionRequestHandling {
     
     func beginRequestWithExtensionContext(context: NSExtensionContext) {
         //if (NSUserDefaults(suiteName: "group.openadblock.openadblock")!.boolForKey("blockAds")) {
-            let url = NSURL(fileURLWithPath: ((NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!)
-            let attachment = NSItemProvider(contentsOfURL: url)!
+            let attachment = NSItemProvider(contentsOfURL: NSBundle.mainBundle().URLForResource("blockerList", withExtension: "json"))!
             let item = NSExtensionItem()
             item.attachments = [attachment]
             
